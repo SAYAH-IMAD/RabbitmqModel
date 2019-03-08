@@ -32,6 +32,7 @@ namespace receiver
                     {
                         var body = ea.Body;
                         var message = Encoding.UTF8.GetString(body);
+
                         Console.WriteLine($" message {i} Received {message}");
                         i++;
                     };

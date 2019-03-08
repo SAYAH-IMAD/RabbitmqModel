@@ -35,7 +35,7 @@ namespace sender
                     for (int i = 0; i < 1000000; i++)
                     {
                         channel.BasicPublish(exchange: "",
-                                        routingKey: "learnrabbit",
+                                        routingKey: "task_worker",
                                         basicProperties: null,
                                         body: body);
                                         
